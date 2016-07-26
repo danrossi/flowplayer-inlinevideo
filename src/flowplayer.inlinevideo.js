@@ -86,7 +86,7 @@ function MetadataInjector(config) {
 
     if (config.isMobile) {
 
-      ddMetaTag("viewport", 'width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui');
+      addMetaTag("viewport", 'width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui');
       addMetaTag("mobile-web-app-capable", "yes");
       addMetaTag("theme-color", "black");
       if (!!config.touchIcon) addLinkTag("icon", config.touchIcon, config.iconSizes);
