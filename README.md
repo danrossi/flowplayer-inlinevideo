@@ -26,6 +26,7 @@ If these tags are already configured then a duplicate tag will not be added.
 
 The following will be prepended to the page
 
+```
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui">
 
 <meta name="mobile-web-app-capable" content="yes">
@@ -35,6 +36,7 @@ The following will be prepended to the page
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="apple-touch-icon" sizes="192x192" href="/path/to/icon.png">
+```
 
 See more:
 
