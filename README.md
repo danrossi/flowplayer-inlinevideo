@@ -46,16 +46,16 @@ https://developer.chrome.com/multidevice/android/installtohomescreen
 Create HomeScreen app of webpage
 ================================
 
-1) touch the pin icon at the bottom of Safari.
-2) touch "Add to Home Screen"
-3) choose a name and touch "Add"
+1. touch the pin icon at the bottom of Safari.
+2. touch "Add to Home Screen"
+3. choose a name and touch "Add"
 
 
 Configuration
 =============
 
-touchIcon - the url to the touch icon which will be used for the app icon.
-iconSizes - the icon dimensions ie. 192x192
+* touchIcon - the url to the touch icon which will be used for the app icon.
+* iconSizes - the icon dimensions ie. 192x192
 
 Known Issues
 ============
