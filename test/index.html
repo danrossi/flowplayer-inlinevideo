@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="flowplayer.min.js"></script>
+    <script src="../src/flowplayer.inlinevideo.js"></script>
+
+    <link rel="stylesheet" href="//releases.flowplayer.org/6.0.5/skin/minimalist.css">
+
+    <style>
+        .flowplayer { width: 70%; }
+    </style>
+</head>
+<body>
+
+<div id="player" class="is-splash"  data-embed="false"></div>
+
+<script type="text/javascript">
+    var player;
+
+    !(function () {
+
+        player = flowplayer("#player", {
+            //inline video config
+            inline: {
+                //add the IOS home screen touch icon if not already set.
+                touchIcon: "images/flowplayer-logo-192.png",
+                //icon size
+                iconSizes: "192x192"
+            },
+            clip: {
+                sources: [
+
+                    {type: "video/webm", src: "//videos.electroteque.org/bitrate/big_buck_bunny_600k.webm"},
+                    {type: "video/mp4", src: "//videos.electroteque.org/bitrate/big_buck_bunny_600k.mp4"},
+                    {type: "video/ogg", src: "//videos.electroteque.org/bitrate/big_buck_bunny_600k.ogv"}
+                ]
+            }
+
+        });
+
+    })();
+
+
+</script>
+
+</body>
+</html>
